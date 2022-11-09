@@ -6,10 +6,13 @@ end-to-end visual similarity solution using Vertex Matching Engine
 - [03-pipeline-workflows.ipynb](https://github.com/tottenjordan/vector-similarity-w-vertex-ai/blob/main/03-pipeline-workflows.ipynb) - orchestrate e2e workflow with Vertex Pipelines
 - [04-vector-filtering.ipynb](https://github.com/tottenjordan/vector-similarity-w-vertex-ai/blob/main/04-vector-filtering.ipynb) - examples of filtering and crowding when querying index
 
-Reference Architecture
+### TODOs: 
+* (1) Use both image and text (product title, description) for embeddings
+
+reference architecture
 ![alt text](https://github.com/tottenjordan/vector-similarity-w-vertex-ai/blob/main/imgs/visual-sim-ref-arch.png)
 
-### Neural Deep Retrieval
+### Objectives
 
 1. Use a pretrained deep learning model to extract feature vectors (embeddings) from each image in a retail product catalog
 
@@ -18,9 +21,6 @@ Reference Architecture
 3. For a given query image, call `model.predict(x)` with the same pretrained model used in (1) to extract the feature vectors (embeddings) from the query image
 
 4. Using the computed feature vectors from (3), query the Matching Engine Index to find the `k` nearest neighbors
-
-#### TODOs: 
-* (1) Use both image and text (product title, description) for embeddings
 
 ### Vertex Pipelines
 ![alt text](https://github.com/tottenjordan/vector-similarity-w-vertex-ai/blob/main/imgs/vsm-e2e-pipe.png)
