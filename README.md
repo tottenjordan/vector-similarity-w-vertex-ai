@@ -18,6 +18,8 @@ end-to-end visual similarity solution using Vertex Matching Engine
 
 ![alt text](https://github.com/tottenjordan/vector-similarity-w-vertex-ai/blob/main/imgs/high-level-NDR.png)
 
+See [`why-ann-index.md`](https://github.com/tottenjordan/vector-similarity-w-vertex-ai/blob/main/why-ann-index.md) for a refresher on NDR and ANN indexes
+
 ---
 
 ### Repo Objectives
