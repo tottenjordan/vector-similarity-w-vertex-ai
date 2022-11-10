@@ -23,7 +23,12 @@ A critical component for an *approximate search* is an index-structure optimized
 
 ![alt text](https://github.com/tottenjordan/vector-similarity-w-vertex-ai/blob/main/imgs/i-ann-retireve.png)
 
-### 4) Neural Deep Retrieval (NDR) --> Vertex Matching Engine
+### 4) So, we need to build an index that orients similar items closer to each other...
+
+![alt text](https://github.com/tottenjordan/vector-similarity-w-vertex-ai/blob/main/imgs/sample-index.png)
+
+
+## Neural Deep Retrieval (NDR) --> Vertex Matching Engine
 
 NDR provides a way for us to represent complex relationships between multiple entities, [Vertex Matching Engine](https://cloud.google.com/vertex-ai/docs/matching-engine/overview) is a managed solution for indexing these entities
 * use deep learning model (encoder) to generate embedding vector representations of all items
