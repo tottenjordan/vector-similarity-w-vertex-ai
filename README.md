@@ -7,7 +7,7 @@ end-to-end visual similarity solution using Vertex Matching Engine
 - [04-vector-filtering.ipynb](https://github.com/tottenjordan/vector-similarity-w-vertex-ai/blob/main/04-vector-filtering.ipynb) - examples of filtering and crowding when querying index
 
 ### TODOs: 
-* (1) Use both image and text (product title, description) for embeddings
+* (1) Multi-modal features e.g., image and text (product title, description) for embeddings
 
 ---
 ## Getting value out of unstructured data with embeddings
